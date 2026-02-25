@@ -1,16 +1,78 @@
-# React + Vite
+# 🚀 Public Transport Tracker (React.js)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, real-time styled Public Transport Tracking Web App built using **React.js** with advanced UI effects, booking simulation, analytics dashboard, and Dark/Light theme support.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## React Compiler
+### 🔄 Real-Time Simulation
+- Fetches transport data using `useEffect`
+- Auto refresh every 10 seconds
+- Manual refresh button
+- Loading spinner animation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🚍 Transport Filtering
+- Filter by Route
+- Filter by Transport Type (Bus, Car, Bike, Train)
+- Zone-based filtering
+- From → To search system
+- Perfect match (Next Arrival highlight)
 
-## Expanding the ESLint configuration
+### 🎨 Advanced UI / UX
+- Cyber glass navbar
+- Neon hero section
+- Animated particle background
+- Floating dot effects
+- 3D transport cards
+- Smooth dark/light theme transition
+- Yellow + White Light theme
+- Blue cyber Dark theme
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📊 Analytics Section
+- Total Routes counter
+- On Time / Delayed stats
+- Zone counter
+- Animated stat cards
+
+### 🎟 Booking System Simulation
+- Book Now button
+- Modal popup with trip details
+- Price display
+- Booking ID generation
+- Payment processing animation
+- Ticket generation UI
+- Success animation
+
+### 🌗 Theme Toggle
+- Navbar toggle button
+- Dark / Light theme switch
+- Smooth transition animation
+- Hero background changes dynamically
+
+---
+
+## 🛠 Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- CSS3 (Advanced animations, Glassmorphism, Neon effects)
+- Lucide React Icons
+- JSONPlaceholder API (Mock Data)
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# Clone repository
+git clone https://github.com/yourusername/public-transport-tracker.git
+
+# Go inside project
+cd public-transport-tracker
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
